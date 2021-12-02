@@ -32,9 +32,13 @@ ReactDOM.render(
     
     <div className={styles.center}>
         <div className={styles.mainBox}>
+<<<<<<< HEAD
           <AmplifyProvider>
             <App />
            </AmplifyProvider>
+=======
+          <App />
+>>>>>>> 5978584cfaa4a5f1d56f7d2c9da8a3391e00f38b
         </div>
     </div>
     
