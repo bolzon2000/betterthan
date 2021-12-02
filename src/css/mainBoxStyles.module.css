@@ -1,0 +1,12 @@
+.center { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh; 
+}
+.mainBox {
+    width: 320px;
+    height:480px;
+    background-color:#2e2820;
+  }
+ 

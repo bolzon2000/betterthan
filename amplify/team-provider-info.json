@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-betterthan-staging-224521-authRole",
+      "UnauthRoleArn": "arn:aws:iam::572846365009:role/amplify-betterthan-staging-224521-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::572846365009:role/amplify-betterthan-staging-224521-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-betterthan-staging-224521-deployment",
+      "UnauthRoleName": "amplify-betterthan-staging-224521-unauthRole",
+      "StackName": "amplify-betterthan-staging-224521",
+      "StackId": "arn:aws:cloudformation:eu-west-2:572846365009:stack/amplify-betterthan-staging-224521/5de1aa00-52f8-11ec-9c6a-0248e196de78",
+      "AmplifyAppId": "d2gazmubxuzsvz"
+    },
+    "categories": {
+      "auth": {
+        "BetterThan": {}
+      }
+    }
+  }
+}
