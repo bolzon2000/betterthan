@@ -12,7 +12,9 @@ const Home = () => {
             <p style={{margin: "20px"}}>We all <b>think</b> we like Nikhil. But how does he rate when we compare him to other things? Do we like him better than an apple for example? 
                 Better than a toothbrush? A sea urchin? Try the <b>BetterThanNikhilInator</b> and find out how you'd rate Nikhil against every day objects!</p>
             <Link to="/Analyzer">Get Started</Link>
+            <div>nothin</div>
         </div>
+        
     )
 };
 
