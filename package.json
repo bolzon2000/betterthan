@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "betterthannikhil",
   "version": "0.1.0",
   "private": true,
@@ -12,17 +11,6 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.0.2",
-=======
-  "name": "betterthan",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.15.0",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
->>>>>>> 5978584cfaa4a5f1d56f7d2c9da8a3391e00f38b
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
@@ -49,11 +37,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-<<<<<<< HEAD
-=======
-  },
-  "devDependencies": {
-    "react-router-dom": "^6.0.2"
->>>>>>> 5978584cfaa4a5f1d56f7d2c9da8a3391e00f38b
   }
 }
