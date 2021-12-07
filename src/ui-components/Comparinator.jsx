@@ -9,7 +9,7 @@ import React from "react";
 import { getOverrideProps } from "@aws-amplify/ui-react/internal";
 import { Image, Text, View } from "@aws-amplify/ui-react";
 export default function Comparinator(props) {
-  const { selectedGauge, overrides: overridesProp, ...rest } = props;
+  const { comparisons, overrides: overridesProp, ...rest } = props;
   const overrides = { ...overridesProp };
   return (
     <View
@@ -31,67 +31,67 @@ export default function Comparinator(props) {
         {...getOverrideProps(overrides, "View.View[0]")}
       ></View>
       <Image
-        width="57px"
+        width="48px"
         padding="0px 0px 0px 0px"
         position="absolute"
         top="292px"
         left="82px"
-        height="49px"
+        height="48px"
         {...getOverrideProps(overrides, "View.Image[0]")}
       ></Image>
       <Text
         padding="0px 0px 0px 0px"
-        color="rgba(0,0,0,1)"
+        color="rgba(255,255,255,1)"
         textAlign="center"
         display="flex"
         justifyContent="flex-start"
-        fontFamily="Roboto"
-        top="354px"
+        fontFamily="PT Sans"
+        top="345px"
         left="20px"
         width="280px"
-        fontSize="24px"
-        lineHeight="28.125px"
+        fontSize="12px"
+        lineHeight="14.0625px"
         position="absolute"
         fontWeight="400"
         direction="column"
-        height="34px"
+        height="18px"
         children="Is Nikhil Better Than"
         {...getOverrideProps(overrides, "View.Text[0]")}
       ></Text>
       <Image
-        width="52px"
+        width="48px"
         padding="0px 0px 0px 0px"
         position="absolute"
         top="292px"
         left="185px"
-        height="46px"
+        height="48px"
         {...getOverrideProps(overrides, "View.Image[1]")}
       ></Image>
       <Text
         padding="0px 0px 0px 0px"
-        color="rgba(0,0,0,1)"
+        color="rgba(255,255,255,1)"
         textAlign="center"
         display="flex"
-        justifyContent="flex-start"
-        fontFamily="Roboto"
-        top="388px"
+        justifyContent="center"
+        fontFamily="PT Sans"
+        top="357px"
         left="20px"
         width="280px"
-        fontSize="24px"
-        lineHeight="28.125px"
+        fontSize="18px"
+        lineHeight="21.09375px"
         position="absolute"
-        fontWeight="400"
+        fontWeight="700"
         direction="column"
-        height="32px"
-        children="Potatoes?"
+        children={comparisons?.description}
         {...getOverrideProps(overrides, "View.Text[1]")}
       ></Text>
       <Image
-        width="280px"
         padding="0px 0px 0px 0px"
-        position="absolute"
         top="0px"
         left="20px"
+        src={comparisons?.itemURL}
+        width="280px"
+        position="absolute"
         height="280px"
         {...getOverrideProps(overrides, "View.Image[2]")}
       ></Image>

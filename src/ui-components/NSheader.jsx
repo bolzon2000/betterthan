@@ -16,7 +16,7 @@ export default function NSheader(props) {
       width="320px"
       padding="0px 0px 0px 0px"
       position="relative"
-      height="57px"
+      height="28px"
       {...rest}
       {...getOverrideProps(overrides, "View")}
     >
@@ -27,7 +27,7 @@ export default function NSheader(props) {
         left="0px"
         width="320px"
         position="absolute"
-        height="57px"
+        height="28px"
         {...getOverrideProps(overrides, "View.View[0]")}
       ></View>
       <Text
@@ -35,10 +35,10 @@ export default function NSheader(props) {
         color="rgba(255,255,255,1)"
         textAlign="left"
         display="flex"
-        justifyContent="flex-start"
-        fontFamily="Roboto"
-        top="16px"
-        left="15px"
+        justifyContent="center"
+        fontFamily="PT Sans"
+        top="0px"
+        left="20px"
         width="260px"
         fontSize="24px"
         lineHeight="28.125px"
@@ -53,8 +53,8 @@ export default function NSheader(props) {
         width="27px"
         padding="0px 0px 0px 0px"
         position="absolute"
-        top="17px"
-        left="277px"
+        top="3px"
+        left="270px"
         height="25px"
         {...getOverrideProps(overrides, "View.Image[0]")}
       ></Image>

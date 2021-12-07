@@ -37,7 +37,7 @@ export default function GaugeInator(props) {
           display: "flex",
           label: "Nothin Better Than Nikhil!",
           justifyContent: "center",
-          fontFamily: "Roboto",
+          fontFamily: "PT Sans",
           top: "132px",
           left: "0px",
           width: "255px",
@@ -430,7 +430,7 @@ export default function GaugeInator(props) {
         textAlign="center"
         display="flex"
         justifyContent="center"
-        fontFamily="Roboto"
+        fontFamily="PT Sans"
         top="132px"
         left="0px"
         width="255px"
@@ -440,7 +440,7 @@ export default function GaugeInator(props) {
         fontWeight="700"
         direction="column"
         height="40px"
-        children="Nothin Better Than Nikhil!"
+        children="defaultText"
         {...getOverrideProps(overrides, "View.Text[0]")}
       ></Text>
     </View>

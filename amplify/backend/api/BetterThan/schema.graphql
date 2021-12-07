@@ -1,6 +1,6 @@
-type Comparisons @model @auth(rules: [{allow: public}, {allow: private}]) {
+type Comparisons @model @auth(rules: [{allow: private}]) {
   id: ID!
   itemURL: String!
   description: String!
 }
- 
+  

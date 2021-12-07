@@ -6,7 +6,10 @@
       "output": {
         "authConfig": {
           "defaultAuthentication": {
-            "authenticationType": "AWS_IAM"
+            "authenticationType": "AMAZON_COGNITO_USER_POOLS",
+            "userPoolConfig": {
+              "userPoolId": "authBetterThan"
+            }
           },
           "additionalAuthenticationProviders": [
             {
@@ -17,10 +20,7 @@
               }
             },
             {
-              "authenticationType": "AMAZON_COGNITO_USER_POOLS",
-              "userPoolConfig": {
-                "userPoolId": "authBetterThan"
-              }
+              "authenticationType": "AWS_IAM"
             }
           ]
         }

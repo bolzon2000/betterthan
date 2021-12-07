@@ -4,8 +4,9 @@
  * Any changes to this file will be overwritten when running amplify pull. *
  **************************************************************************/
 
+export { default as SignInInator } from "./SignInInator";
 export { default as NSTextImageBlock } from "./NSTextImageBlock";
 export { default as Comparinator } from "./Comparinator";
 export { default as NSheader } from "./NSheader";
-export { default as NSButton } from "./NSButton";
 export { default as GaugeInator } from "./GaugeInator";
+export { default as NSButton } from "./NSButton";
